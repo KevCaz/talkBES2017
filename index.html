@@ -3,7 +3,7 @@
 
 <head>
 
-  <title> Biotic interactions and geographical distribution </title>
+  <title> Towards an energetic theory of island biogeography </title>
   <meta charset="utf-8">
 
 
@@ -19,10 +19,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
-<!-- Add font awesome -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- KC: FONT-AWESOME -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-
+<!-- KC: FONTS -->
   <style>
   @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
   @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
@@ -54,7 +54,6 @@
   h1, h2, h3 {
     font-weight: medium;
   }
-
 
 
   .remark-slide-content {
@@ -144,13 +143,12 @@
   .style1 .column:last-of-type {width: 45%}
 
 
-
   .style2 {
-    background: #595959;
+    background: #545454;
     color: #232323;
   }
   .style2 h1, .style2 h2 {
-    color: #3fb3b2;
+    color: #fff;
     line-height: 1em;
     font-size: 2.2em;
   }
@@ -168,7 +166,9 @@
 
 </head>
 
-<!-- cd /Users/KevCaz/Codes/Github/decktape -->
+
+<!-- 1- clone decktape -->
+<!-- cd ~/Github/decktape -->
 <!-- ./bin/phantomjs decktape.js -s 1600x900 file:///Users/KevCaz/Dropbox/grenoble2017/grenoble.html#1 /Users/KevCaz/Dropbox/grenoble2017/grenoble.pdf -->
 
 
@@ -207,9 +207,9 @@
     layout: true
     class: center middle, style2
     ---
-    # INTRODUCTION
+    # CONTEXT
     <hr/>
-    ### Biogeography and biotic interactions
+    ### Why?
 
 
     ---
@@ -217,102 +217,67 @@
     layout: true
     class: style1
     ---
-    # Biogeography?
+    # A truism
     <hr/>
 
-    .center[![:scale 100%](fig/figmapw1.png)]
+    <br><br>
+
+    > The ultimate source of nearly all the income of energy which the earth receives
+    is the sun. From it we get a continual stream of radiant energy, part of which
+    is intercepted and circulates in the form of our weather and climatic movements,
+    and through animals and plants, before passing off again into space.
+
+    [Elton C., *Journal of Experimental Biology*, 1924.](http://jeb.biologists.org/content/2/1/119)
 
     ---
-    # Biogeography
+    # A truism
+
+    ## Energy
+
+    --
+    ### 1- Solar radiation
+
+    --
+    ### 2- Water availibility
+
+    --
+    ### 3- Nutrients availibility
+
+
+    ---
+    # A truism
+
+    .center[![:scale 100%](img/ecoreg.png)]
+
+
+    ---
+    # A set of rules
     <hr/>
 
-    .center[![:scale 100%](fig/figmapw2.png)]
+    .center[![:scale 100%](img/figall4.png)]
 
     ---
-    # Biogeography
+    # A set of rules
     <hr/>
 
-    .center[![:scale 100%](fig/figmapw3.png)]
-
-
+    .center[![:scale 100%](img/figall5.png)]
 
     ---
-    # Individuals to population
-    <hr/><br/>
-
-    .center[![:scale 100%](./fig/figall1.png)]
-
-    ---
-    # Individuals to population
-    <hr/><br/>
-
-    .center[![:scale 100%](./fig/figall2.png)]
-
-    ---
-    # Population to metapopulations
-    <hr/><br/>
-
-    .center[![:scale 100%](./fig/figall3.png)]
-
-    ???
-    Interaction at this scale that one can actually envision interactions
-
-    ---
-    # Population to metapopulations
-    <hr/><br/>
-
-    .center[![:scale 100%](./fig/figall4.png)]
-
-    ???
-    Interaction at this scale that one can actually envision interactions
-
-    ---
-    # Population to metapopulations
-    <hr/><br/>
-
-    .center[![:scale 100%](./fig/figall5.png)]
-
-    ???
-    Interaction at this scale that one can actually envision interactions
-
-    ---
-    # Metapopulations to metacommunities
-    <hr/><br/>
-
-    .center[![:scale 100%](./fig/figall6.png)]
-
-    ???
-    Interaction at this scale that one can actually envision interactions
-
-    ---
-    # Metacommunities through time
-    <hr/><br/>
-
-    .center[![:scale 100%](./fig/figall7.png)]
-
-    ???
-    We scaled up in space
-    Let's sclaed up in space
-    Lot's of process to take into account !
-    That explain why species are here... Lot's of processes le'ts recap
-
-    ---
-    # Metacommunities through time
-    <hr/><br/>
-
-    .center[![:scale 100%](./fig/figall8.png)]
-
-
-
-    ---
-    # Biogeography
+    # A set of rules
     <hr/>
 
-    .center[![:scale 100%](fig/figmapw3.png)]
+    .center[![:scale 100%](img/figall6.png)]
+
+    ---
+    # A set of rules / law
+    <hr/>
+
+    .center[![:scale 100%](img/figall7.png)]
+
 
 
     ---
-    # Factors shaping species distributions
+    # Factors influencing species distributions
     <hr/><br/>
     ## 1. Abiotic variables
     --
@@ -328,140 +293,18 @@
 
     <br/>
 
-    # .center[INTERDEPENDENT]
+    # .center[[INTERDEPENDENT]()]
 
 
     ---
-    # Predicting species distributions
-    <hr/>
+    # A challenge: predicting species distributions
 
-    .center[![:scale 100%](./fig/figdem0.png)]
-
-
-    ---
-    # Predicting species distributions
-    <hr/>
-
-    .center[![:scale 100%](./fig/figdem1.png)]
-
-    ---
-    # Predicting species distributions
-    <hr/>
-
-    .center[![:scale 100%](./fig/figdem2.png)]
-
-
-    ---
-    # Species Distribution Models (SDMs)
-    <hr/>  <br/>
-
-    .center[![:scale 100%](./fig/figgrad1.png)]
-
-
-    ---
-    # Species Distribution Models (SDMs)
-    <hr/>  <br/>
-
-    .center[![:scale 100%](./fig/figgrad2.png)]
-
-
-
-    ---
-    # Predicting species distributions
-    <hr/>
-
-    .center[![:scale 100%](./fig/figdem3.png)]
-
-    ---
-    # Predicting species distributions
-    <hr/>
-
-    .center[![:scale 100%](./fig/figdem4.png)]
-
-    ---
-    # Species Distribution Models (SDMs)
-    <hr/>  <br/>
-
-    .center[![:scale 100%](./fig/figgrad3.png)]
-
-    ---
-    # Species Distribution Models (SDMs)
-    <hr/>  <br/>
-
-    .center[![:scale 100%](./fig/figgrad4.png)]
-
-
-
-
-    ---
-    # Predicting species distributions
-    <hr/>
-
-    .center[![:scale 100%](./fig/figdem5.png)]
-
-    ---
-    # Predicting species distributions
-    <hr/>
-
-    ## Species are assumed independent
-    --
-
-    ### - Davis *et al*, 1998, *Nature*
-    --
-
-    <br/>
-
-    ## Joint Species Distribution Models (JSDMs)
-
-    ### - Clark *et al*, 2014, *Ecological Applications*
-
-    ### - Pollock *et al*, 2014, *Methods in Ecology and Evolution*
-
-    <br/>
-
-    --
-    ## Theory
-
-    ### - Gravel *et al*, 2011, *Ecology Letters*
-
-
-
-
-    ---
-    # Predicting species distributions
-    <hr/>
-
-    .center[![:scale 100%](./fig/figdem6.png)]
-
-    ---
-    # Predicting species distributions
-    <hr/>
-
-    .center[![:scale 100%](./fig/figdem7.png)]
+    .center[![:scale 95%](img/figdem7.png)]
 
 
 
 
 
-
-    ---
-    # Questions
-    <hr/><br/>
-
-    --
-    ## 1. How to integrate biotic interactions into distribution models?
-    <br/><br/>
-
-    --
-    ## 2. How the properties of ecological networks influence co-occurrence?
-
-    <br/><br/>
-
-    --
-    ## 3. Can we infer interactions from co-occurrence?
-
-    ???
-    des why / des hypothèses et des how
 
 
 
@@ -480,9 +323,9 @@
     layout: true
     class: center, middle, style2
     ---
-    # THEORY OF ISLAND BIOGEOGRAPHY AND BIOTIC INTERACTIONS
+    # Building an Energetic TIB (a continuer)
     <hr />
-    ###  How to integrate biotic interactions into distribution models?
+    ### How energy constrain species distribution?
 
 
     ---
@@ -1686,6 +1529,7 @@
     };
     var slideshow = remark.create({
       ratio: "4:3",
+      // ratio: "16:9",
       highlightStyle: 'sunburst' });
 
     // Setup MathJax
