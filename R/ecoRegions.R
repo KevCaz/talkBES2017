@@ -4,7 +4,7 @@ library(rgeos)
 library(raster)
 
 ecoreg <- readOGR(dsn='data', layer='wwf_terr_ecos')
-bound <- gUnionCascade(ecoreg)
+bound <- gUnionCascaded(ecoreg)
 
 names(ecoreg@data)
 dim(ecoreg@data)
@@ -25,7 +25,7 @@ palette(c( "#3fb3b2", "#ffdd55", "#c7254e", "#1b95e0", "#8555b4", "#8ddd75"))
 png(file = 'img/ecoreg.png', width=8, height=5, units='in', res=300)
 par(bg=NA, mar=rep(.5, 4))
 ##
-plot0(c(-25000000, 25000000), c(-9000000, 21000000))
+plot0(range(coordinates(ecoreg)[,1L]), range(coordinates(ecoreg)[,2L])+c(10000000,0))
 plot(bound, lwd=.4, border='white', add=T)
 plot(ecoreg[id_des,], border=NA, add=T, col=2)
 plot(ecoreg[id_tou,], border=NA, add=T, col=4)
