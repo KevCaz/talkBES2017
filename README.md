@@ -19,6 +19,7 @@ In order to rectify this, we develop a theory to include energy constraints to d
 
 ## To do
 
+
 - [ ] add figure to explain community cost
 - [ ] add results
 - [ ] no more than 3 slides as perspectives
