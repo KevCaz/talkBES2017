@@ -11,9 +11,14 @@ In order to rectify this, we develop a theory to include energy constraints to d
  Co-Authors: Kevin McCann (University of Guelph), Dominique Gravel (Université de Sherbrooke)
 
 
- - Main: "#3fb3b2";
- - Yellow-logo: "#ffdd55";
- - red code: "#c7254e";
- - blue twitter: "#1b95e0";
- - purple kevcaz: "#8555b4"
- - green kevcaz:#8ddd75;
+- Colors palette:
+
+```
+ "#3fb3b2", "#ffdd55", "#c7254e", "#1b95e0", "#8555b4", "#8ddd75"
+```
+
+## To do
+
+- [ ] add figure to explain community cost
+- [ ] add results
+- [ ] no more than 3 slides as perspectives
