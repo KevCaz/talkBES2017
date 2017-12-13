@@ -1,6 +1,6 @@
 # ignore
 data/
-*.pdf$
+*.pdf
 
 # History files
 .Rhistory
