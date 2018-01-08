@@ -21,4 +21,6 @@ Co-Authors: Kevin McCann (University of Guelph), Dominique Gravel (Université d
 
 The easiest way that I am aware of is using [decktape](https://github.com/astefanutti/decktape):
 
-3. `decktape -s 1600x900 file:///home/kevcaz/Github/Talks/talkBES2017/index.html#1 /home/kevcaz/Github/Talks/talkBES2017/talkEAB2017_KC.pdf`
+```
+decktape --no-sandbox file:///path/to/index.html /path2/to/talkUot2017_KC.pdf
+```
